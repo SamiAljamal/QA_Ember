@@ -1,0 +1,17 @@
+{"questions": [{
+  "question": "How do I learn how to program",
+  "author": "Brett New",
+  "note": "I'm trying to learn how to program. How should I start, and what are some resources out there?",
+  "answers": [{}]
+}, {
+  "question": "What's better Ember or Angular?",
+  "author": "Sami Al-Jamal",
+  "note": "I want to know which Javascript frame work I should focus on learning.",
+  "answers": [{}]
+},{
+  "question": "Superman or Batman?",
+  "author": "Geek247",
+  "note": "I want everyone's opinion on which super hero they prefer.",
+  "answers": [{}]
+}]
+}
