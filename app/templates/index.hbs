@@ -3,6 +3,6 @@
 <h2>Questions</h2>
 <ul>
   {{#each model.questions as |question|}}
-    <li>{{question.inquiry}}</li>
+    <li>{{#link-to 'question' question.id}}{{question.inquiry}}<br>By{{question.author}}{{/link-to}}</li>
   {{/each}}
 </ul>
