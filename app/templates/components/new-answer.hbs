@@ -10,9 +10,9 @@
         <label for="content">Content</label>
         {{textarea value=content id="content"}}
       </div>
-      <button {{action 'save1'}}>Save</button>
+      <button {{action 'saveAnswer'}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'AnswerFormShow'}}>Answer</button>
+  <button {{action 'answerFormShow'}}>Answer</button>
 {{/if}}
