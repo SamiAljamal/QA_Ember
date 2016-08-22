@@ -1,8 +1,6 @@
 # Qa-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
+This is a Q&A site built in the ember framework.
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -39,11 +37,10 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
+
+## Contact
+If there are any questions about this application, you can contact me at sami.m.aljamal@gmail.com
 
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://ember-cli.com/)
@@ -51,3 +48,17 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+  ## Technologies Used
+  * Ember
+  * Typescript
+  * HTML
+  * CSS
+  * Bootstrap
+  * Javascript
+
+
+  ### License
+
+  This software is Licensed under the MIT license.
+
+  Copyright (c) 2016 Sami Al-Jamal
