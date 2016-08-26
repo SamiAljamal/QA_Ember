@@ -6,6 +6,8 @@
   {{#each model.answers as |answer|}}
   <h4>{{answer.content}}</h4>
   <h5>By: {{answer.author}}</h5>
+  <h5> Votes: {{answer.votes}} <span class="glyphicon glyphicon-thumbs-up" {{action "upVote" answer}}></span> <span class="glyphicon glyphicon-thumbs-down" {{action "downVote" answer}}></span> </h5>
+
   <hr>
   {{/each}}
 </ul>
