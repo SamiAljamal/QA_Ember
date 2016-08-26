@@ -2,12 +2,4 @@
 {{update-question question=model update="update"}}
 <h4>Answers:</h4>
 {{new-answer saveAnswer="saveAnswer" question=model}}
-<ul>
-  {{#each model.answers as |answer|}}
-  <h4>{{answer.content}}</h4>
-  <h5>By: {{answer.author}}</h5>
-  <h5> Votes: {{answer.votes}} <span class="glyphicon glyphicon-thumbs-up" {{action "upVote" answer}}></span> <span class="glyphicon glyphicon-thumbs-down" {{action "downVote" answer}}></span> </h5>
-
-  <hr>
-  {{/each}}
-</ul>
+{{answer-list question=model answers=model.answers upVote="upVote" downVote="downVote"}}

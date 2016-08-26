@@ -1,0 +1,8 @@
+<ul>
+  {{#each sortedAnswers as |answer|}}
+  <h4>{{answer.content}}</h4>
+  <h5>By: {{answer.author}}</h5>
+  <h5> Votes:{{answer.votes}} <span class="glyphicon glyphicon-chevron-up" {{action "upVote" answer}}></span> <span class="glyphicon glyphicon-chevron-down" {{action "downVote" answer}}></span> </h5>
+  <hr>
+  {{/each}}
+</ul>

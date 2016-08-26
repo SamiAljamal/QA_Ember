@@ -31,7 +31,5 @@ export default Ember.Route.extend({
       answer.decrementProperty('votes');
       answer.save();
     }
-
-
   }
 });
