@@ -1,0 +1,9 @@
+<h1>Favorite Questions</h1>
+{{#if favQ.items}}
+{{#each favQ.items as |question|}}
+  <h3>{{question.inquiry}}</h3>
+  <hr>
+{{/each}}
+{{else}}
+<p>No Favorite Questions</p>
+{{/if}}

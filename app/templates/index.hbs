@@ -2,9 +2,11 @@
 {{new-question saveQuestion="saveQuestion"}}
 <h2>Questions</h2>
 <ul>
-  {{#each model.questions as |question|}}
+  {{#each model as |question|}}
     <li class="q-list">{{#link-to 'question' question.id}}{{question.inquiry}}<br><span class="author">-{{question.author}}<br>{{question-popularity question}}<p>
-    </p></span>{{/link-to}}</li>
+    </p></span>{{/link-to}}
+    <button class="cool" {{action "addtoFav" question}}>Add to Favorites</button>
+  </li>
     <hr>
   {{/each}}
 </ul>
